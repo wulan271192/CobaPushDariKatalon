@@ -25,5 +25,11 @@ WebUI.click(findTestObject('button_make_Appointment'))
 
 WebUI.verifyElementPresent(findTestObject('text_please_login'), 0)
 
+WebUI.setText(findTestObject('input_username'), 'John Doe')
+
+WebUI.setText(findTestObject('input_password'), 'ThisIsNotAPassword')
+
+WebUI.click(findTestObject('btn_login'))
+
 WebUI.closeBrowser()
 
