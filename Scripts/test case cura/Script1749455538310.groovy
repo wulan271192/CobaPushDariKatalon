@@ -31,5 +31,5 @@ WebUI.setText(findTestObject('input_password'), 'ThisIsNotAPassword')
 
 WebUI.click(findTestObject('btn_login'))
 
-WebUI.closeBrowser()
+WebUI.delay(2)
 
