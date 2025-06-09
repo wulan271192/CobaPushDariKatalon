@@ -23,5 +23,7 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('button_make_Appointment'))
 
+WebUI.verifyElementPresent(findTestObject('text_please_login'), 0)
+
 WebUI.closeBrowser()
 
